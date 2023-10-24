@@ -1,0 +1,675 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Kapakana:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-kapakana: Kapakana;
+
+  /* font sizes */
+  --font-size-21xl: 40px;
+  --font-size-29xl: 48px;
+  --font-size-xl: 20px;
+  --font-size-45xl: 64px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-darkslategray: rgba(65, 65, 65, 0.55);
+  --color-gainsboro: #d9d9d9;
+  --color-sienna-100: #936c46;
+  --color-sienna-200: rgba(147, 108, 70, 0.76);
+  --color-whitesmoke: #f5f5f5;
+  --color-dimgray: #676767;
+}
+
+.greg-1-icon,
+.images-1-icon,
+.images-2-icon {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 225px;
+  height: 225px;
+  object-fit: cover;
+}
+.greg-1-icon,
+.images-2-icon {
+  top: 10406px;
+  left: 53px;
+}
+.greg-1-icon {
+  top: 414px;
+  left: 50px;
+  width: 1500px;
+  height: 1074px;
+}
+.enjoy-your-stay {
+  top: 414px;
+  left: 1675px;
+  font-family: var(--font-kapakana);
+}
+.about-us,
+.bar,
+.enjoy-your-stay,
+.room-type {
+  position: absolute;
+  color: var(--color-sienna-200);
+  text-align: center;
+}
+.about-us {
+  top: 4291px;
+  left: 1812px;
+  font-family: var(--font-kapakana);
+}
+.bar,
+.room-type {
+  font-size: var(--font-size-21xl);
+}
+.room-type {
+  top: 2876px;
+  left: 88px;
+  font-family: var(--font-kapakana);
+}
+.bar {
+  top: 8233px;
+  left: 129px;
+  font-weight: 500;
+}
+.take-a-tour {
+  top: 6319px;
+  left: 78px;
+  font-family: var(--font-kapakana);
+}
+.newsletter,
+.our-blog,
+.take-a-tour {
+  position: absolute;
+  color: var(--color-sienna-200);
+  text-align: center;
+}
+.newsletter {
+  top: 9311px;
+  left: 54px;
+  font-size: var(--font-size-21xl);
+  font-weight: 500;
+}
+.our-blog {
+  top: 7986px;
+  left: 2401px;
+  font-family: var(--font-kapakana);
+}
+.an-enchanting-escape {
+  position: absolute;
+  top: 470px;
+  left: 1696px;
+  font-size: 96px;
+  display: inline-block;
+  color: var(--color-black);
+  width: 979px;
+}
+.discover-our {
+  margin: 0;
+}
+.discover-our-garden-container {
+  position: absolute;
+  top: 6422px;
+  left: 53px;
+  font-size: var(--font-size-45xl);
+  font-weight: 600;
+  color: var(--color-black);
+  white-space: pre-wrap;
+}
+.about,
+.contact-us,
+.outdoor-bar,
+.privacy,
+.subscribe-to-get {
+  position: absolute;
+  top: 8101px;
+  left: 2088px;
+  font-size: var(--font-size-45xl);
+  font-weight: 600;
+  color: var(--color-black);
+}
+.about,
+.contact-us,
+.privacy,
+.subscribe-to-get {
+  top: 10480px;
+  left: 1549px;
+}
+.contact-us,
+.privacy,
+.subscribe-to-get {
+  top: 10465px;
+  left: 2290px;
+}
+.contact-us,
+.subscribe-to-get {
+  left: 3109px;
+}
+.subscribe-to-get {
+  top: 9383px;
+  left: 54px;
+  display: inline-block;
+  width: 1548px;
+}
+.the-are-many,
+.the-are-many1,
+.the-perfect-luxury {
+  position: absolute;
+  font-weight: 500;
+  display: inline-block;
+}
+.the-perfect-luxury {
+  top: 4382px;
+  left: 1788px;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  width: 633px;
+}
+.the-are-many,
+.the-are-many1 {
+  width: 1279px;
+}
+.the-are-many {
+  top: 905px;
+  left: 1696px;
+  line-height: 75px;
+  height: 302px;
+}
+.the-are-many1 {
+  top: 4745px;
+  left: 1723px;
+  line-height: 80px;
+}
+.the-are-many2,
+.the-are-many3,
+.the-are-many4,
+.the-are-many5 {
+  position: absolute;
+  top: 2463px;
+  left: 50px;
+  font-weight: 500;
+  display: inline-block;
+  width: 1279px;
+}
+.the-are-many3,
+.the-are-many4,
+.the-are-many5 {
+  top: 6787px;
+  left: 53px;
+}
+.the-are-many4,
+.the-are-many5 {
+  top: 9575px;
+  left: 80px;
+}
+.the-are-many5 {
+  top: 10665px;
+}
+.desktop-1-child,
+.desktop-1-item {
+  position: absolute;
+  top: 1210px;
+  left: 1696px;
+  background-color: var(--color-sienna-200);
+  width: 285px;
+  height: 115px;
+}
+.desktop-1-item {
+  top: 7098px;
+  left: 54px;
+}
+.desktop-1-inner,
+.rectangle-div {
+  position: absolute;
+  background-color: var(--color-whitesmoke);
+  box-sizing: border-box;
+  width: 346px;
+  height: 115px;
+}
+.desktop-1-inner {
+  top: 1207px;
+  left: 2204px;
+  border: 3px solid var(--color-sienna-100);
+}
+.rectangle-div {
+  top: 9364px;
+  left: 943px;
+  border-radius: 100px;
+  border: 6px solid rgba(147, 108, 70, 0.35);
+}
+.start-now,
+.start-now1 {
+  position: absolute;
+  top: 1236px;
+  left: 1723px;
+  color: var(--color-whitesmoke);
+}
+.start-now1 {
+  top: 7124px;
+  left: 81px;
+}
+.get-start,
+.read-more {
+  position: absolute;
+  top: 1236px;
+  left: 2259px;
+  color: var(--color-sienna-200);
+}
+.get-start {
+  top: 9393px;
+  left: 998px;
+}
+.home {
+  position: relative;
+  font-weight: 500;
+}
+.home-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 42px;
+  z-index: 0;
+}
+.frame-child {
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  border: 3px solid var(--color-sienna-100);
+  box-sizing: border-box;
+  width: 346px;
+  height: 115px;
+  z-index: 1;
+}
+.register {
+  position: absolute;
+  margin: 0 !important;
+  top: 29px;
+  left: 1233px;
+  font-size: var(--font-size-29xl);
+  font-weight: 600;
+  color: var(--color-sienna-200);
+  text-align: left;
+  z-index: 2;
+}
+.frame-parent {
+  position: absolute;
+  top: 27px;
+  left: 2350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 321px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+}
+.desktop-1-child1 {
+  position: absolute;
+  top: 1443px;
+  left: 238px;
+  background-color: var(--color-gainsboro);
+  width: 1932px;
+  height: 163px;
+}
+.frame-inner,
+.frame-item {
+  position: relative;
+  width: 13.51px;
+  height: 15.25px;
+}
+.frame-inner {
+  width: 25.98px;
+  height: 22.5px;
+}
+.locatin-parent {
+  position: absolute;
+  top: 1488px;
+  left: 366px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 48px;
+  color: var(--color-black);
+}
+.select,
+.select1,
+.select2 {
+  position: absolute;
+  top: 1566px;
+  left: 366px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  color: var(--color-dimgray);
+  display: inline-block;
+  width: 99px;
+}
+.select1,
+.select2 {
+  left: 751px;
+}
+.select2 {
+  left: 1204px;
+}
+.desktop-1-child2 {
+  position: absolute;
+  top: 1447px;
+  left: 1617px;
+  background-color: var(--color-sienna-200);
+  width: 553px;
+  height: 159px;
+}
+.desktop-1-child3 {
+  position: absolute;
+  top: 11005px;
+  left: 54px;
+  background-color: rgba(147, 108, 70, 0.5);
+  width: 701px;
+  height: 159px;
+}
+.enter-your-email {
+  position: absolute;
+  top: 11060px;
+  left: 125px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+}
+.book-now {
+  position: absolute;
+  top: 1488px;
+  left: 1747px;
+  font-weight: 800;
+  color: var(--color-whitesmoke);
+}
+.suggested-room {
+  position: absolute;
+  top: 2209px;
+  left: 50px;
+  font-size: 128px;
+  color: var(--color-black);
+  text-align: center;
+}
+.desktop-1-child4,
+.desktop-1-child5 {
+  position: absolute;
+  top: 3141.5px;
+  left: 3561.27px;
+  width: 86.6px;
+  height: 75px;
+}
+.desktop-1-child5 {
+  top: 8550.5px;
+}
+.left-2-icon,
+.left-3-icon {
+  position: absolute;
+  top: 2637px;
+  left: 4405px;
+  width: 107px;
+  height: 105px;
+  object-fit: cover;
+}
+.left-3-icon {
+  left: 4562px;
+}
+.icon,
+.icon1,
+.icon2,
+.icon3,
+.le-pigonnet-aix-en-provence-bi-icon {
+  position: absolute;
+  top: 3009px;
+  left: 53px;
+  width: 1006px;
+  height: 595px;
+  object-fit: cover;
+}
+.icon1,
+.icon2,
+.icon3,
+.le-pigonnet-aix-en-provence-bi-icon {
+  top: 8418px;
+}
+.icon2,
+.icon3,
+.le-pigonnet-aix-en-provence-bi-icon {
+  top: 3009px;
+  left: 1257px;
+}
+.icon3,
+.le-pigonnet-aix-en-provence-bi-icon {
+  top: 8418px;
+}
+.le-pigonnet-aix-en-provence-bi-icon {
+  top: 3009px;
+  left: 2479px;
+}
+.chambre-deluxe-1-icon,
+.chambre-deluxe-2-icon,
+.le-pigonnet-aix-en-provence-bi-icon1,
+.th-1-icon {
+  position: absolute;
+  top: 8418px;
+  left: 2479px;
+  width: 1006px;
+  height: 595px;
+  object-fit: cover;
+}
+.chambre-deluxe-1-icon,
+.chambre-deluxe-2-icon,
+.th-1-icon {
+  top: 3009px;
+  left: 3663px;
+}
+.chambre-deluxe-2-icon,
+.th-1-icon {
+  top: 8418px;
+}
+.th-1-icon {
+  top: 4970px;
+  left: 1059px;
+  width: 568px;
+  height: 679px;
+}
+.tablethotels-le-pigonnet-1-1-icon,
+.tablethotels-le-pigonnet-1-2-icon {
+  position: absolute;
+  top: 4382px;
+  left: 53px;
+  width: 940px;
+  height: 1124px;
+  object-fit: cover;
+}
+.tablethotels-le-pigonnet-1-2-icon {
+  top: 6358px;
+  left: 1585px;
+  width: 1731px;
+}
+.po-2013-galerie-photos-photo-p-icon {
+  position: absolute;
+  top: 4217px;
+  left: 1059px;
+  width: 568px;
+  height: 679px;
+  object-fit: cover;
+}
+.restarunt1 {
+  margin: 0;
+  color: var(--color-black);
+}
+.beach,
+.gmy,
+.restarunt,
+.rooms {
+  position: absolute;
+  top: 5195px;
+  left: 1801px;
+  font-weight: 500;
+  color: var(--color-sienna-100);
+}
+.beach,
+.gmy,
+.rooms {
+  top: 5411px;
+  left: 1802px;
+}
+.beach,
+.rooms {
+  left: 2179px;
+}
+.rooms {
+  top: 5183px;
+}
+.desktop-1-child6 {
+  position: absolute;
+  top: 11032px;
+  left: 549px;
+  background-color: var(--color-gainsboro);
+  width: 170px;
+  height: 104px;
+}
+.arrow-icon {
+  position: absolute;
+  top: 11073.95px;
+  left: 603px;
+  width: 63.5px;
+  height: 22.09px;
+}
+.features1,
+.home1,
+.reviews,
+.terms {
+  position: absolute;
+  top: 10663px;
+  left: 1549px;
+  font-size: var(--font-size-21xl);
+  font-weight: 500;
+}
+.features1,
+.reviews,
+.terms {
+  top: 10769px;
+}
+.reviews,
+.terms {
+  top: 10981px;
+}
+.terms {
+  left: 2290px;
+}
+.div,
+.faqs,
+.gregorykgosiejang0gmailcom,
+.payment,
+.policy,
+.privacy1,
+.stories {
+  position: absolute;
+  top: 10875px;
+  left: 1549px;
+  font-size: var(--font-size-21xl);
+  font-weight: 500;
+}
+.div,
+.gregorykgosiejang0gmailcom,
+.payment,
+.policy,
+.privacy1,
+.stories {
+  top: 11087px;
+}
+.div,
+.gregorykgosiejang0gmailcom,
+.payment,
+.policy,
+.privacy1 {
+  top: 10875px;
+  left: 2290px;
+}
+.div,
+.gregorykgosiejang0gmailcom,
+.policy,
+.privacy1 {
+  top: 10769px;
+}
+.div,
+.gregorykgosiejang0gmailcom,
+.privacy1 {
+  top: 10760px;
+  left: 3109px;
+}
+.div,
+.privacy1 {
+  top: 10663px;
+  left: 2290px;
+}
+.div {
+  top: 10654px;
+  left: 3109px;
+}
+.desktop-1 {
+  position: relative;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 11282px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
+}
+
+button{
+  width: 100;
+  height: 50;
+}
+
